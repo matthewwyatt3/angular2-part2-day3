@@ -1,0 +1,9 @@
+<p>add-user works!</p>
+<ng-container *ngIf="userForm">
+    <form [formGroup]="userForm">
+        <input type="text" formControlName="username">
+        <input type="text" formControlName="avatar">
+        <input type="text" formControlName="token">
+    
+    </form>
+</ng-container>

@@ -1,0 +1,13 @@
+<p>login works!</p>
+
+<div *ngIf="user">
+    <div>
+        Logged in as {{user?.username}}
+    </div>
+    <button (click)="onLogOut()">Log Out</button>
+</div>
+<div>
+    <button (click)="onLogIn()">Log In</button>
+</div>
+
+
